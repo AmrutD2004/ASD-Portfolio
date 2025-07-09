@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-7$j7s+g1ivd!y1$rgqdn&+wsn$$jsj&2y&$_*t)+n1%pp$k^*i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS =  []
+ALLOWED_HOSTS =  ['https://asd-portfolio-fb4n.onrender.com']
 
 
 # Application definition
