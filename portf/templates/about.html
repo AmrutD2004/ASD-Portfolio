@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="about-section py-5 px-4">
+  <div class="container text-white">
+    <div class="row align-items-center">
+      <!-- Profile Image Column -->
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <div class="circular-image-container">
+          <img class="circular-image" src="{% static 'images/profile.jpg' %}" alt="Amrut Deshpande">
+        </div>
+      </div>
+
+      <!-- About Me Text Column -->
+      <div class="col-md-8">
+        <h2 class="mb-4">About Me</h2>
+<p>Hello! I'm <strong>Amrut Deshpande</strong>, a final-year B.Tech student at MGM's Jawaharlal Nehru Engineering College. I'm passionate about becoming a skilled full-stack developer, with a focus on mastering Python and modern web technologies.</p>
+
+<p>I’m actively building my skills in front-end and back-end development, and I enjoy turning ideas into real, user-friendly solutions. My current tech stack includes <strong>HTML, CSS, JavaScript, Python, Django, SQL, and MongoDB</strong>.</p>
+
+<p>I believe in continuous learning, staying curious, and contributing positively to every team I’m part of. I'm excited to grow in this field and work on meaningful tech projects.</p>
+
+<p>Thanks for visiting my portfolio — feel free to <a href="/contact/" class="text-warning">get in touch</a>!</p>
+
+      </div>
+    </div>
+
+    <hr class="my-5">
+
+    <!-- Tech Stack -->
+    <h3 class="text-center mb-4">Tech Stack</h3>
+    <div class="row justify-content-center align-items-center text-center g-4">
+      <div class="col-auto">
+        <img src="{% static 'images/html.png' %}" alt="HTML" class="img-fluid" width="60">
+      </div>
+      <div class="col-auto">
+        <img src="{% static 'images/css.png' %}" alt="CSS" class="img-fluid" width="60">
+      </div>
+      <div class="col-auto">
+        <img src="{% static 'images/javascript.png' %}" alt="JavaScript" class="img-fluid" width="60">
+      </div>
+      <div class="col-auto">
+        <img src="{% static 'images/python.png' %}" alt="Python" class="img-fluid" width="60">
+      </div>
+      <div class="col-auto">
+        <img src="{% static 'images/django.png' %}" alt="Django" class="img-fluid" width="60">
+      </div>
+      <div class="col-auto">
+        <img src="{% static 'images/mongodb.png' %}" alt="MongoDB" class="img-fluid" width="60">
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

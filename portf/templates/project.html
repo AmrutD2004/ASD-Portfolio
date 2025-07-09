@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="projects-section" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);
+min-height: 100vh;
+padding: 6rem 0 4rem;
+position: relative;
+overflow: hidden;">
+    <div class="container">
+        <div class="row">
+            {% for p in projects %}
+            <div class="col-6">
+                <h4>{{p.title}}</h4>
+                <img src="{{ p.url }}" alt="{{p.title}}" width="500" height="500" class="img-fluid">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}
