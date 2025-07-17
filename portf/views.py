@@ -25,7 +25,12 @@ def project(request):
             {
             'title' : 'Simple-User-Authentication',
             'url' : 'https://res.cloudinary.com/dq7ldqmy4/image/upload/v1751905381/simpleuserauthentication_qhkxyw.png '
+            },
+            {
+                'title' : 'Daily Expense Tracker',
+            'url' : 'https://res.cloudinary.com/dq7ldqmy4/image/upload/v1752746399/TrakX_cfxooy.png '
             }
+            
     ]
     data={
         'projects':projects,
