@@ -66,7 +66,7 @@ def contact(request):
     return render(request, 'contact.html')
 
 def resume(request):
-    resume_path="myapp/amrutdeshpanderesume.pdf"
+    resume_path="myapp/amrutresume.pdf"
     resume_path = staticfiles_storage.path(resume_path)
     if staticfiles_storage.exists(resume_path):
         with open(resume_path,'rb') as resume_file:
